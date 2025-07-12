@@ -138,12 +138,8 @@ def _(mo):
 
 
 @app.cell
-def _(lmb):
-    pryor_bot = lmb.SimpleBot(
-        system_prompt="You are a helpful assistant who responds like Richard Pryor.",
-        model_name="ollama_chat/llama3.2",
-    )
-    pryor_bot("Aloha!")
+def _():
+    # Your code here!
     return
 
 
